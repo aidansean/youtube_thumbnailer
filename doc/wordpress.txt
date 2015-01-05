@@ -1,0 +1,19 @@
+[mathjax]
+
+This project takes a YouTube uri and provides the appropriate thumbnail images.
+
+<h3>Links</h3>
+
+<a href="http://www.aidansean.com/youtube_thumbnailer">Live page</a>
+<a href="https://github.com/aidansean/youtube_thumbnailer">GitHub repository</a>
+
+<h3>Overview</h3>
+
+Occasionally it's useful to have the thumbnail for a YouTube video, and I often forget the exact path for doing this.  So I wrote this script that fetches the uri for the user.
+
+<h3>Challenges</h3>
+<dl>
+<dt><em>Challenge</em>: The uri had to be parsed.</dt>
+
+<dd><em>Solution</em>: Since this is entirely Javascript based and in the browser there are no safety issues associated with the parsing.  Upon failure the page simply tells the user there was a problem. (Resolved)</dd>
+</dl>
